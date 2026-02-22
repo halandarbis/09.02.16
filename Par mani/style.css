@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.bg-custom {
+    background-color: #565264;
+}
+
+/* Dark sections */
+.section-dark {
+    background-color: #000000;
+}
+
+/* Purple section */
+.section-purple {
+    background-color: #6b6678;
+}
+
+ 
+
+.about-image img {
+    max-width: 800px;  
+    width: 100%;
+     height: auto;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+    height: auto;   /* important */
+    word-wrap: break-word;
+}
+
+
+/* Icon square */
+.icon-box {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+
+
+
+#myCarousel img {
+    height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #dcdcdc;
+}
+
+
+
+.footer-title {
+    font-size: 28px;
+    color: #565264;
+    font-weight: 600;
+}
